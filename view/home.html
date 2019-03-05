@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/swiper.mini.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <style>
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        .swiper-pagination-bullet {
+            width: 15px;
+            height: 15px;
+            background: #fff;
+        }
+
+        .swiper-container-horizontal>.swiper-pagination-bullets {
+            bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="home-box">
+        <!-- 头部内容 -->
+        <div class="header">
+            <div class="center-box">
+                <div class="logo">
+                    <img src="../img/home/web/wjxc_logo@2x.png" width="100%">
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li class="active">首页</li>
+                        <li>星辰+</li>
+                        <li>智聚云</li>
+                        <li>智能小程序</li>
+                        <li>关于我们</li>
+                        <li>加入我们</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Swiper -->
+        <div class="swiper-container" id='swipercon'>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: url(../img/home/web/1-1-1-BG@2x.jpg);background-size:100% 100%;background-repeat: no-repeat">
+                    <div class="link-more">
+                        <div class="title">
+                            星辰+
+                        </div>
+                        <div class="brife">
+                            领先的一站式变现平台
+                        </div>
+                        <div class="xs-brife">
+                            提供聚合广告，临渊搜索，小游戏等变现服务
+                        </div>
+                        <div class="bnts">
+                            <div class="login-btn">免费注册</div>
+                            <div class="more-btn" style="border-width:0px;">了解更多</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(../img/home/web/bg2@2x.jpg);background-size:100% 100%;background-repeat: no-repeat">
+                    <div class="link-more">
+                        <div class="title">
+                            智聚云
+                        </div>
+                        <div class="brife2">
+                            星辰信息流整合优质内容源+智能聚合分发平台
+                        </div>
+                        <div class="more2">
+                            了解更多
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-slide" style="background-image: url(../img/home/web/bg3@2x.jpg);background-size:100% 100%;background-repeat: no-repeat">
+                    <div class="link-more">
+                        <div class="title">
+                            星辰智能小程序
+                        </div>
+                        <div class="brife2">
+                            覆盖微信、百度和今日头条三大平台的小程序产品矩阵及行业saas解决方案
+                        </div>
+                        <div class="more2">
+                            了解更多
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+
+
+        <div class="content">
+            <div>
+                <div class="section clearfix">
+                    <div class="f-left">
+                        <div class="contain">
+                            <div class="title">变现能力“强”</div>
+                            <div class="brife">跨渠道、跨区域整合媒体资源，PC和移动端多屏合一，对接百度、广点通、阿里、今日头条、猎豹、京东等各大主流广告市场，提供高效的一站式商业化变现方案。</div>
+                        </div>
+                    </div>
+                    <div class="f-right">
+                        <div class="img-icon"><img src="../img/home/web/1-2-1@2x.jpg" width="100%"></div>
+                    </div>
+                </div>
+            </div>
+            <div style="background:rgba(241,242,245,1);">
+                <div class="section clearfix" style="background:rgba(241,242,245,1);">
+                    <div class="f-right">
+                        <div class="contain text-right" style="background:#fff">
+                            <div class="title">内容分发“多”</div>
+                            <div class="brife">利用AI和大数据能力提供海量内容智能聚合与分发服务，为优质的渠道平台打造最契合用户属性的聚合资讯产品，帮助媒体及内容生产机构高效分发优质内容，更智能的连接人与信息。</div>
+                        </div>
+                    </div>
+                    <div class="f-left">
+                        <div class="img-icon"><img src="../img/home/web/1-2-2@2x.jpg" width="100%"></div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="section clearfix">
+                    <div class="f-left">
+                        <div class="contain">
+                            <div class="title">流量运营“精”</div>
+                            <div class="brife">公司专注媒体端和流量端深度运营，与上百家优质媒体和头部APP开发者深度合作，将媒体资源结构化、标签化、直观化，不断优化广告样式和资源组合，通过大数据能力提升投放精准度和目标受众到达率。</div>
+                        </div>
+                    </div>
+                    <div class="f-right">
+                        <div class="img-icon"><img src="../img/home/web/1-2-3@2x.jpg" width="100%"></div>
+                    </div>
+                </div>
+            </div>
+            <div style="background:black;background-image: url(../img/home/web/1-2-BG1@2x.jpg);background-size:cover;background-repeat: no-repeat;background-position:center">
+                <div class="section">
+                    <div class="advantage">
+                        <div class="title">
+                            我们的优势
+                        </div>
+                        <div class="brife">
+                            OUR ADVANTAGE
+                        </div>
+                        <div class="icon-brife clearfix">
+                            <div class="brife-box">
+                                <div class="icon"><img src="../img/home/web/icon1@2x.png" width="100%"></div>
+                                <div class="title">强大的技术团队</div>
+                                <div class="brife">我们能够利用专业的算法控制，最优分配流量，一切可以自动完成，优化效果将远远优于人工调配。安全且高效，保障实时性 & 准确率。</div>
+                            </div>
+                            <div class="brife-box" style="margin-left:100px;">
+                                <div class="icon"><img src="../img/home/web/icon2@2x.png" width="100%"></div>
+                                <div class="title">大数据融合</div>
+                                <div class="brife">利用大数据帮助媒体分析所有流量，提升每个流量的售卖价值，点击率提高50%~200%以上。</div>
+                            </div>
+                        </div>
+                        <div class="icon-brife clearfix">
+                            <div class="brife-box">
+                                <div class="icon"><img src="../img/home/web/icon3@2x.png" width="100%"></div>
+                                <div class="title">专业的运维服务</div>
+                                <div class="brife">稳定的服务器和专业技术运维支持。既能节省您的资源，又能放心交给我们伺服。广告发布即时生效，快速广告检索，平均检索速度<10ms。</div>
+                            </div>
+                            <div class="brife-box" style="margin-left:100px;">
+                                <div class="icon"><img src="../img/home/web/icon4@2x.png" width="100%"></div>
+                                <div class="title">透明易于管理的平台</div>
+                                <div class="brife">覆盖国内中高端媒体广告管理需求。<br> 学习成本低，符合国内广告管理操作习惯。<br> 简单创建以及管理广告位，易于查看的透明报表。</div>
+                            </div>
+                        </div>
+                        <!-- 方块statr-->
+                        <div class="block-box">
+                            <div class="cont-box">
+                                <div class="icon">
+                                    <img src="../img/home/web/icon5@2x.png" width="100%">
+                                </div>
+                                <div class="num">
+                                    20万+
+                                </div>
+                                <div class="brife">
+                                    日均APP和小程序分发量
+                                </div>
+                            </div>
+                            <div class="cont-box">
+                                <div class="icon">
+                                    <img src="../img/home/web/icon6@2x.png" width="100%">
+                                </div>
+                                <div class="num">
+                                    20万+
+                                </div>
+                                <div class="brife">
+                                    日均APP和小程序分发量
+                                </div>
+                            </div>
+                            <div class="cont-box">
+                                <div class="icon">
+                                    <img src="../img/home/web/icon7@2x.png" width="100%">
+                                </div>
+                                <div class="num">
+                                    20万+
+                                </div>
+                                <div class="brife">
+                                    日均APP和小程序分发量
+                                </div>
+                            </div>
+                            <div class="cont-box">
+                                <div class="icon">
+                                    <img src="../img/home/web/icon8@2x.png" width="100%">
+                                </div>
+                                <div class="num">
+                                    20万+
+                                </div>
+                                <div class="brife">
+                                    日均APP和小程序分发量
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                        <!-- 方块end -->
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+           </div>
+
+
+
+
+
+           
+           </div>
+
+
+
+
+
+
+
+
+    </div>
+
+    <script src="../js/swiper.mini.js"></script>
+    <script>
+        // 获取浏览器窗口的可视区域的宽度
+        function getViewPortWidth() {
+            return document.documentElement.clientWidth || document.body.clientWidth;
+        }
+
+        // 获取浏览器窗口的可视区域的高度
+        function getViewPortHeight() {
+            return document.documentElement.clientHeight || document.body.clientHeight;
+        }
+
+        //    document.getElementById('swipercon').style.width=getViewPortWeight()+'px';
+        document.getElementById('swipercon').style.height = getViewPortHeight() + 'px';
+        window.onresize = function () {
+            document.getElementById('swipercon').style.height = getViewPortHeight() +
+                'px';
+        }
+        var swiper = new Swiper('.swiper-container', {
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
+</body>
+
+</html>
