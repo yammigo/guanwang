@@ -1,0 +1,152 @@
+.xcj-box {
+  min-width: 1100px;
+}
+.xcj-box .waper-box {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+.xcj-box .waper-box .link-box .title {
+  font-size: 46px;
+  color: #fff;
+}
+.xcj-box .waper-box .link-box .brife {
+  font-size: 28px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 28px;
+  margin-top: 24px;
+}
+.xcj-box .waper-box .link-box .bnts {
+  width: 310px;
+  height: 60px;
+  margin-top: 52px;
+}
+.xcj-box .waper-box .link-box .bnts .login-btn,
+.xcj-box .waper-box .link-box .bnts .more-btn {
+  width: 152px;
+  height: 52px;
+  text-align: center;
+  line-height: 52px;
+  border: solid 1px #fff;
+  border-radius: 30px;
+  cursor: pointer;
+  float: left;
+  color: #fff;
+}
+.xcj-box .waper-box .link-box .bnts .more-btn {
+  color: #fff;
+}
+.xcj-box .waper-box .link-box .bnts .login-btn {
+  background: linear-gradient(135deg, #41a3ff 0%, #007aff 100%);
+  border-color: #41a3ff;
+}
+.xcj-box .waper-box .link-box .bnts .more-btn:hover {
+  color: #fff;
+}
+.xcj-box .waper-box .link-box .bnts .login-btn:hover {
+  background: linear-gradient(135deg, #41a3ff 0%, #007aff 100%);
+  border-color: #41a3ff;
+}
+.xcj-box .waper-box .link-box .bnts .login-btn:active {
+  background: linear-gradient(135deg, #0071dc 0%, #0049ac 100%);
+  border-color: #0049ac;
+}
+.xcj-box .waper-box .bglogo {
+  width: 406px;
+  height: 467px;
+  margin-top: -100px;
+}
+.xcj-box .content .section {
+  width: 1100px;
+  height: 700px;
+  margin: auto;
+}
+.xcj-box .content .section .logo-box {
+  padding-top: 60px;
+  width: 180px;
+  margin: auto;
+}
+.xcj-box .content .section .brife-box .title {
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  color: #383a40;
+}
+.xcj-box .content .section .brife-box .brife {
+  width: 700px;
+  font-size: 12px;
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  color: #737886;
+  line-height: 20px;
+  margin: auto;
+  margin-top: 22px;
+}
+.xcj-box .content .section .s-bottom-img {
+  margin-top: 48px;
+}
+.xcj-box .content .f-left {
+  width: 50%;
+  height: 500px;
+  float: left;
+  position: relative;
+}
+.xcj-box .content .f-right {
+  width: 50%;
+  height: 500px;
+  float: right;
+  position: relative;
+}
+.xcj-box .content .contain {
+  width: 488px;
+  height: 134px;
+  padding-bottom: 20px;
+  background: #f1f2f5;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  margin-top: -67px;
+  margin-left: 15px;
+  -webkit-box-shadow: 0px 12px 20px 0px rgba(54, 56, 68, 0.05);
+  box-shadow: 0px 12px 20px 0px rgba(54, 56, 68, 0.05);
+}
+.xcj-box .content .contain .title {
+  font-size: 32px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.xcj-box .content .contain .brife {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.xcj-box .content .contain .img-icon {
+  width: 500px;
+  height: 400px;
+}
+.xcj-box .content .text-right::after {
+  position: absolute;
+  top: 50%;
+  left: -10px;
+  content: "";
+  display: block;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 15px solid #f1f2f5;
+  z-index: -1;
+  margin-top: -7px;
+}
+.xcj-box .content .text-left::before {
+  position: absolute;
+  top: 50%;
+  right: -10px;
+  content: "";
+  display: block;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #fff;
+  margin-top: -7px;
+}

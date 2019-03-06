@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,6 +8,8 @@
     <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="../css/swiper.mini.css">
     <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/aos.css">
+    <script src="../js/jqueryV3.2.js"></script>
     <style>
         .swiper-container {
             width: 100%;
@@ -42,7 +43,7 @@
         }
 
         .swiper-container-horizontal>.swiper-pagination-bullets {
-            bottom: 50px;
+            bottom: 70px;
         }
     </style>
 </head>
@@ -76,7 +77,7 @@
                             星辰+
                         </div>
                         <div class="brife">
-                            领先的一站式变现平台
+                            领先的一站式流量变现服务平台
                         </div>
                         <div class="xs-brife">
                             提供聚合广告，临渊搜索，小游戏等变现服务
@@ -87,36 +88,58 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide" style="background-image: url(../img/home/web/bg2@2x.jpg);background-size:100% 100%;background-repeat: no-repeat">
+                <div class="swiper-slide" style="background-image: url(../img/home/web/1-1-2-BG@2x.jpg);background-size:100% 100%;background-repeat: no-repeat">
                     <div class="link-more">
                         <div class="title">
                             智聚云
                         </div>
-                        <div class="brife2">
+                        <div class="brife">
                             星辰信息流整合优质内容源+智能聚合分发平台
                         </div>
-                        <div class="more2">
+                        <!-- <div class="more2">
                             了解更多
+                        </div> -->
+                        <div class="centered-container"><a class="link link--arrowed" href="#">了解更多
+                                <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                    viewBox="0 0 32 32">
+                                    <g fill="none" stroke="#FFF" stroke-width="1.5" stroke-linejoin="round"
+                                        stroke-miterlimit="10">
+                                        <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                                        <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                                    </g>
+                                </svg></a>
                         </div>
                     </div>
 
                 </div>
-                <div class="swiper-slide" style="background-image: url(../img/home/web/bg3@2x.jpg);background-size:100% 100%;background-repeat: no-repeat">
+                <div class="swiper-slide" style="background-image: url(../img/home/web/1-1-3-BG@2x.jpg);background-size:100% 100%;background-repeat: no-repeat">
                     <div class="link-more">
                         <div class="title">
                             星辰智能小程序
                         </div>
-                        <div class="brife2">
+                        <div class="brife">
                             覆盖微信、百度和今日头条三大平台的小程序产品矩阵及行业saas解决方案
                         </div>
-                        <div class="more2">
+                        <!-- <div class="more2">
                             了解更多
+                        </div> -->
+                        <div class="centered-container"><a class="link link--arrowed" href="#">了解更多
+                                <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                    viewBox="0 0 32 32">
+                                    <g fill="none" stroke="#FFF" stroke-width="1.5" stroke-linejoin="round"
+                                        stroke-miterlimit="10">
+                                        <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                                        <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                                    </g>
+                                </svg></a>
                         </div>
+                       
                     </div>
 
                 </div>
             </div>
             <!-- Add Pagination -->
+            <div style="position:absolute;left:50%;bottom:40px;z-index:10;margin-left:-11px;"> <i class="chevron bottom"></i></div>
             <div class="swiper-pagination"></div>
         </div>
 
@@ -125,38 +148,39 @@
             <div>
                 <div class="section clearfix">
                     <div class="f-left">
-                        <div class="contain">
-                            <div class="title">变现能力“强”</div>
-                            <div class="brife">跨渠道、跨区域整合媒体资源，PC和移动端多屏合一，对接百度、广点通、阿里、今日头条、猎豹、京东等各大主流广告市场，提供高效的一站式商业化变现方案。</div>
+                        <div class="contain" data-aos-once="true" data-aos="fade-up">
+                            <div class="title"  data-aos-once="true" data-aos="fade-up">变现能力“强”</div>
+                            <div class="brife"  data-aos-once="true" data-aos="fade-up">跨渠道、跨区域整合媒体资源，PC和移动端多屏合一，对接百度、广点通、阿里、今日头条、猎豹、京东等各大主流广告市场，提供高效的一站式商业化变现方案。</div>
                         </div>
                     </div>
                     <div class="f-right">
-                        <div class="img-icon"><img src="../img/home/web/1-2-1@2x.jpg" width="100%"></div>
+                        <div class="img-icon" data-aos-once="true" data-aos="fade-up"><img src="../img/home/web/1-2-1@2x.jpg"
+                                width="100%"></div>
                     </div>
                 </div>
             </div>
             <div style="background:rgba(241,242,245,1);">
                 <div class="section clearfix" style="background:rgba(241,242,245,1);">
-                    <div class="f-right">
+                    <div class="f-right" data-aos-once="true" data-aos="fade-up">
                         <div class="contain text-right" style="background:#fff">
-                            <div class="title">内容分发“多”</div>
-                            <div class="brife">利用AI和大数据能力提供海量内容智能聚合与分发服务，为优质的渠道平台打造最契合用户属性的聚合资讯产品，帮助媒体及内容生产机构高效分发优质内容，更智能的连接人与信息。</div>
+                            <div class="title"  data-aos-once="true" data-aos="fade-up">内容分发“多”</div>
+                            <div class="brife"  data-aos-once="true" data-aos="fade-up">利用AI和大数据能力提供海量内容智能聚合与分发服务，为优质的渠道平台打造最契合用户属性的聚合资讯产品，帮助媒体及内容生产机构高效分发优质内容，更智能的连接人与信息。</div>
                         </div>
                     </div>
-                    <div class="f-left">
+                    <div class="f-left" data-aos-once="true" data-aos="fade-up">
                         <div class="img-icon"><img src="../img/home/web/1-2-2@2x.jpg" width="100%"></div>
                     </div>
                 </div>
             </div>
             <div>
                 <div class="section clearfix">
-                    <div class="f-left">
+                    <div class="f-left" data-aos-once="true" data-aos="fade-up">
                         <div class="contain">
-                            <div class="title">流量运营“精”</div>
-                            <div class="brife">公司专注媒体端和流量端深度运营，与上百家优质媒体和头部APP开发者深度合作，将媒体资源结构化、标签化、直观化，不断优化广告样式和资源组合，通过大数据能力提升投放精准度和目标受众到达率。</div>
+                            <div class="title"  data-aos-once="true" data-aos="fade-up">流量运营“精”</div>
+                            <div class="brife"  data-aos-once="true" data-aos="fade-up">公司专注媒体端和流量端深度运营，与上百家优质媒体和头部APP开发者深度合作，将媒体资源结构化、标签化、直观化，不断优化广告样式和资源组合，通过大数据能力提升投放精准度和目标受众到达率。</div>
                         </div>
                     </div>
-                    <div class="f-right">
+                    <div class="f-right" data-aos-once="true" data-aos="fade-up">
                         <div class="img-icon"><img src="../img/home/web/1-2-3@2x.jpg" width="100%"></div>
                     </div>
                 </div>
@@ -164,30 +188,31 @@
             <div style="background:black;background-image: url(../img/home/web/1-2-BG1@2x.jpg);background-size:cover;background-repeat: no-repeat;background-position:center">
                 <div class="section">
                     <div class="advantage">
-                        <div class="title">
+                        <div class="title" data-aos-once="true" data-aos="fade-up">
                             我们的优势
                         </div>
-                        <div class="brife">
+                        <div class="brife" data-aos-once="true" data-aos="fade-up">
                             OUR ADVANTAGE
                         </div>
                         <div class="icon-brife clearfix">
-                            <div class="brife-box">
+                            <div class="brife-box" data-aos-once="true" data-aos="fade-up">
                                 <div class="icon"><img src="../img/home/web/icon1@2x.png" width="100%"></div>
                                 <div class="title">强大的技术团队</div>
                                 <div class="brife">我们能够利用专业的算法控制，最优分配流量，一切可以自动完成，优化效果将远远优于人工调配。安全且高效，保障实时性 & 准确率。</div>
                             </div>
-                            <div class="brife-box" style="margin-left:100px;">
+                            <div class="brife-box" style="margin-left:100px;" data-aos-once="true" data-aos="fade-up">
                                 <div class="icon"><img src="../img/home/web/icon2@2x.png" width="100%"></div>
                                 <div class="title">大数据融合</div>
                                 <div class="brife">利用大数据帮助媒体分析所有流量，提升每个流量的售卖价值，点击率提高50%~200%以上。</div>
                             </div>
                         </div>
                         <div class="icon-brife clearfix">
-                            <div class="brife-box">
+                            <div class="brife-box" data-aos-once="true" data-aos="fade-up">
                                 <div class="icon"><img src="../img/home/web/icon3@2x.png" width="100%"></div>
                                 <div class="title">专业的运维服务</div>
                                 <div class="brife">稳定的服务器和专业技术运维支持。既能节省您的资源，又能放心交给我们伺服。广告发布即时生效，快速广告检索，平均检索速度<10ms。</div>
-                                        </div> <div class="brife-box" style="margin-left:100px;">
+                                        </div> <div class="brife-box" style="margin-left:100px;" data-aos-once="true"
+                                        data-aos="fade-up">
                                         <div class="icon"><img src="../img/home/web/icon4@2x.png" width="100%"></div>
                                         <div class="title">透明易于管理的平台</div>
                                         <div class="brife">覆盖国内中高端媒体广告管理需求。<br> 学习成本低，符合国内广告管理操作习惯。<br>
@@ -196,7 +221,7 @@
                             </div>
                             <!-- 方块statr-->
                             <div class="block-box">
-                                <div class="cont-box">
+                                <div class="cont-box" data-aos-once="true" data-aos="fade-up">
                                     <div class="icon">
                                         <img src="../img/home/web/icon5@2x.png" width="100%">
                                     </div>
@@ -207,37 +232,37 @@
                                         日均APP和小程序分发量
                                     </div>
                                 </div>
-                                <div class="cont-box">
+                                <div class="cont-box" data-aos-once="true" data-aos="fade-up">
                                     <div class="icon">
                                         <img src="../img/home/web/icon6@2x.png" width="100%">
                                     </div>
                                     <div class="num">
-                                        20万+
+                                        3亿+
                                     </div>
                                     <div class="brife">
-                                        日均APP和小程序分发量
+                                        日均内容点击分发量
                                     </div>
                                 </div>
-                                <div class="cont-box">
+                                <div class="cont-box" data-aos-once="true" data-aos="fade-up">
                                     <div class="icon">
                                         <img src="../img/home/web/icon7@2x.png" width="100%">
                                     </div>
                                     <div class="num">
-                                        20万+
+                                        5亿+
                                     </div>
                                     <div class="brife">
-                                        日均APP和小程序分发量
+                                        移动端日均广告展现量
                                     </div>
                                 </div>
-                                <div class="cont-box">
+                                <div class="cont-box" data-aos-once="true" data-aos="fade-up">
                                     <div class="icon">
                                         <img src="../img/home/web/icon8@2x.png" width="100%">
                                     </div>
                                     <div class="num">
-                                        20万+
+                                        2亿+
                                     </div>
                                     <div class="brife">
-                                        日均APP和小程序分发量
+                                        PC端日均广告展现量
                                     </div>
                                 </div>
 
@@ -257,13 +282,13 @@
                 <!-- 公司发展历程 start -->
                 <div style="background-image: url(../img/home/web/1-2-BG2@2x.jpg);background-size:cover;background-repeat: no-repeat;background-position:center">
                     <div class="section2">
-                        <div class="title">
+                        <div class="title" data-aos-once="true" data-aos="fade-up">
                             公司发展历程
                         </div>
-                        <div class="brife">
+                        <div class="brife" data-aos-once="true" data-aos="fade-up">
                             COMPANY HISTORY
                         </div>
-                        <div class="content-table">
+                        <div class="content-table" data-aos-once="true" data-aos="fade-up">
                             <table>
                                 <tr>
                                     <td style="text-align:center;width:100px;">2010</td>
@@ -302,13 +327,13 @@
                 <!-- 公司发展历程 start -->
                 <div>
                     <div class="section2" style="height:700px;">
-                        <div class="title">
+                        <div class="title" data-aos-once="true" data-aos="fade-up">
                             合作伙伴
                         </div>
-                        <div class="brife">
+                        <div class="brife" data-aos-once="true" data-aos="fade-up">
                             PARTNER
                         </div>
-                        <div class="img-parent" style="margin-top:40px;">
+                        <div class="img-parent" style="margin-top:40px;" data-aos-once="true" data-aos="fade-up">
                             <img src="../img/home/web/ad@2x.jpg" width="100%">
                         </div>
                     </div>
@@ -318,43 +343,49 @@
 
             </div>
             <div class="footer">
-                    <div class="footer-box">
-                        <div class="logo-nav clearfix">
-                            <div class="logo">
-                                 <img src="../img/home/web/text@2x.png" width="206px;">
-                            </div>
-                            <div class="footer-nav">
-                                  <ul class="clearfix"> 
-                                     <li>星辰+一站式变现平台</li>
-                                     <li>智聚云</li>
-                                     <li>智能小程序</li>
-                                     <li>关于我们</li>
-                                     <li>加入我们</li>
-                                     <li>商务合作</li>
-                                  </ul>
-                            </div>
+                <div class="footer-box">
+                    <div class="logo-nav clearfix">
+                        <div class="logo">
+                            <img src="../img/home/web/text@2x.png" width="206px;">
                         </div>
-                        <div class="hr" style="width:100%;height:1px;background:#615f5f;margin-top:34px;">
-
-                        </div>
-                        <div class="copyright">
-                            <div class="copy">
-                                    Copyright&copy;2009-2010 网际星辰文化传媒(北京)有限公司 All rights reserved.
-                            </div>
-                            <div class="beian">
-                                    京ICP备11012669号-12（营业执照）
-                            </div>
+                        <div class="footer-nav">
+                            <ul class="clearfix">
+                                <li>星辰+一站式变现平台</li>
+                                <li>智聚云</li>
+                                <li>智能小程序</li>
+                                <li>关于我们</li>
+                                <li>加入我们</li>
+                                <li>商务合作</li>
+                            </ul>
                         </div>
                     </div>
-        
+                    <div class="hr" style="width:100%;height:1px;background:#615f5f;margin-top:34px;">
+
+                    </div>
+                    <div class="copyright">
+                        <div class="copy">
+                            Copyright&copy;2009-2010 网际星辰文化传媒(北京)有限公司 All rights reserved.
+                        </div>
+                        <div class="beian">
+                            京ICP备11012669号-12（营业执照）
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
 
         </div>
-
-
-
+        <script src="../js/aos.js"></script>
         <script src="../js/swiper.mini.js"></script>
+        <script>
+            $(window).bind("scroll", function () {
+                var $header = $(".header");
+                var t = 300,
+                    m = Math.min(document.documentElement.scrollTop || document.body.scrollTop, t) / t;
+                $header.css("background", "rgba(19,23,35," + m + ")");
+            });
+        </script>
         <script>
             // 获取浏览器窗口的可视区域的宽度
             function getViewPortWidth() {
@@ -373,10 +404,25 @@
                     'px';
             }
             var swiper = new Swiper('.swiper-container', {
-                loop: true,
+                
+                // effect: 'fade',
+                loop:true,
+                speed: 1000,
                 pagination: {
                     el: '.swiper-pagination',
                 },
+                autoplay: {
+                delay:2000,
+                disableOnInteraction:true,
+               }
+            });
+        </script>
+        <script>
+            //设置初始化一个可用动画
+            AOS.init({
+                easing: 'ease',
+                duration: 1000,
+                aosOnce: true
             });
         </script>
 </body>
