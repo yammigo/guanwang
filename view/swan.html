@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>星辰智能小程序</title>
+</head>
+<link rel="stylesheet" href="../css/reset.css">
+<link rel="stylesheet" href="../css/common.css">
+<link rel="stylesheet" href="../css/swan.css">
+<link rel="stylesheet" href="../css/aos.css">
+<script src="../js/jqueryV3.2.js"></script>
+
+<body>
+    <div class="wrap-box">
+        <!-- 导航 -->
+        <div class="header">
+            <div class="center-box">
+                <div class="logo">
+                    <img src="../img/home/web/wjxc_logo@2x.png" width="100%" alt="logo">
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li class="active">首页</li>
+                        <li>星辰+</li>
+                        <li>智聚云</li>
+                        <li>智能小程序</li>
+                        <li>关于我们</li>
+                        <li>加入我们</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 头部 -->
+        <div class="top-box" id="swipercon" style="overflow:hidden;position:relative;background:black;">
+            <img class="top-img" src="../img/swan/web/bg@2x.jpg" width="100%" alt="背景图片">
+            <div class="top-wrap">
+                <div class="top-tit">星辰智能小程序</div>
+                <div class="top-des">覆盖微信、百度和今日头条三大平台的小程序产品矩阵及行业saas解决方案</div>
+            </div>
+        </div>
+        <!-- 下面部分 -->
+        <div class="bot-box">
+            <!-- 星辰小程序部分 -->
+            <div class="mid-box">
+                <div class="wid-wrap">
+                    <img class="s-img" src="../img/swan/web/1@2x.jpg" alt="小程序图片">
+                    <div class="wid-tit">星辰小程序</div>
+                    <div class="wid-des">星辰小程序产品是基于星辰+的互联网产品，依托星辰+在移动互联网行业的技术沉淀和创新能力，覆盖用户身边的生活场景，为用户创造价值</div>
+                    <div class="img-box">
+                        <img class="b-img" src="../img/swan/web/2@2x.jpg" alt="小程序图片">
+                        <img class="b-img" src="../img/swan/web/3@2x.jpg" alt="小程序图片">
+                        <img class="b-img" src="../img/swan/web/4@2x.jpg" alt="小程序图片">
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- 万年历部分     -->
+            <div class="c-box">
+                <div class="l-box">
+                    <img class="c-img" src="../img/swan/web/5@2x.jpg" alt="万年历小程序图片">
+                    <div class="c-tit">星辰万年历</div>
+                    <div class="c-des">中华传统文化传播，农历、宜忌、天气等生活场景，您身边的生活好帮手，我们同时与众多合作方建立了完整的合作关系，帮助合作方实现共赢</div>
+                    <div class="pink"></div>
+                    <img class="phone-img" src="../img/swan/web/6@2x.jpg" alt="万年历手机小程序图片">
+                </div>
+            </div>
+
+            <!-- 天气网部分 -->
+            <div class="weather-box">
+                <div class="w-box">
+                    <img class="weather-img" src="../img/swan/web/7@2x.jpg" alt="万年历手机小程序图片">
+                    <div class="w-cont">
+                        <img class="w-img" src="../img/swan/web/8@2x.jpg" alt="万年历小程序图片">
+                        <div class="w-tit">中国天气</div>
+                        <div class="w-des">中国天气是中国天气网官方小程序，为用户提供实时权威的天气及出行信息查询服务，实况天气、天气预警、语音播报天气、分钟级降雨、15天天气预报、生活指数等，打造行业内最权威的天气服务</div>
+                        <div class="w-pink"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 商务合作部分 -->
+            <div class="s-box">
+                <img class="sw-img" src="../img/zhi/web/bg2@2x.jpg" alt="万年历手机小程序图片">
+                <div class="sw-cont">
+                    <div class="sw-tit">商务合作</div>
+                    <div class="sw-info">联系我们</div>
+                </div>
+            </div>
+
+            <!-- 底部内容 -->
+            <div class="footer">
+                <div class="footer-box">
+                    <div class="logo-nav clearfix">
+                        <div class="logo">
+                            <img src="../img/home/web/text@2x.png" width="206px;">
+                        </div>
+                        <div class="footer-nav">
+                            <ul class="clearfix">
+                                <li>星辰+一站式变现平台</li>
+                                <li>智聚云</li>
+                                <li>智能小程序</li>
+                                <li>关于我们</li>
+                                <li>加入我们</li>
+                                <li>商务合作</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hr" style="width:100%;height:1px;background:#615f5f;margin-top:34px;">
+
+                    </div>
+                    <div class="copyright">
+                        <div class="copy">
+                            Copyright&copy;2009-2010 网际星辰文化传媒(北京)有限公司 All rights reserved.
+                        </div>
+                        <div class="beian">
+                            京ICP备11012669号-12（营业执照）
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="../js/aos.js"></script>
+    <script>
+        $(window).bind("scroll", function () {
+            var $header = $(".header");
+            var t = 300,
+                m = Math.min(document.documentElement.scrollTop || document.body.scrollTop, t) / t;
+            $header.css("background", "rgba(19,23,35," + m + ")");
+        });
+    </script>
+    <script>
+        // 获取浏览器窗口的可视区域的宽度
+        function getViewPortWidth() {
+            return document.documentElement.clientWidth || document.body.clientWidth;
+        }
+
+        // 获取浏览器窗口的可视区域的高度
+        function getViewPortHeight() {
+            return document.documentElement.clientHeight || document.body.clientHeight;
+        }
+
+        //    document.getElementById('swipercon').style.width=getViewPortWeight()+'px';
+        document.getElementById('swipercon').style.height = getViewPortHeight() + 'px';
+        window.onresize = function () {
+            document.getElementById('swipercon').style.height = getViewPortHeight() + 'px';
+        }
+    </script>
+    <script>
+        //设置初始化一个可用动画
+        AOS.init({
+            easing: 'ease',
+            duration: 1000,
+            aosOnce: true
+        });
+    </script>
+</body>
+
+</html>

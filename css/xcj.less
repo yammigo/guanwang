@@ -1,7 +1,5 @@
 .xcj-box {
     min-width: 1100px;
-    ;
-
     .waper-box {
         width: 100%;
         height: 500px;
@@ -41,9 +39,7 @@
                 }
 
                 .more-btn {
-
                     color: #fff;
-
                 }
 
                 .login-btn {
@@ -79,10 +75,186 @@
     }
 
     .content {
+        .content-table {
+            box-shadow: 0px 12px 20px 0px rgba(54, 56, 68, 0.08);
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 400;
+            color: rgba(51, 51, 51, 1);
+            line-height: 14px;
+    
+
+
+            table {
+                width: 100%;
+                background: #fff;
+                border-radius: 10px;
+
+                tr:nth-child(even) {
+                    background: rgba(248, 248, 248, 1);
+                }
+
+                td {
+                    padding:10px;
+                    font-size:12px;
+                    
+                }
+
+            }
+        }
         .section {
             width: 1100px;
-            height: 700px;
+
             margin: auto;
+
+            .advantage {
+                width: 100%;
+                height: 900px;
+                color: #fff;
+                .item-tbox{
+                    .item-t{
+                        width:600px;height:72px;
+                        margin:auto;
+                        margin-top:12px;
+                        span{
+                            display:inline-block;
+                            font-size: 12px;
+                            color:black;
+                            height:100%;
+                            line-height:72px;
+                           
+                        }
+                        .item-title{
+                            width:100px;
+                            text-align:right;
+                            padding-right:20px;
+
+                        }
+                        .item-brife{
+                            width:450px;
+                            background:#fff;
+                            padding-left:20px;
+                            box-shadow:0px 12px 20px 0px rgba(54,56,68,0.08);
+                            border-radius:4px;
+                            position: relative;
+                            .link-docs{
+                                width: 104px;
+                                height:32px;
+                                border-radius:20px;
+                                text-align: center;
+                                line-height:32px;
+                                background:linear-gradient(135deg,rgba(65,163,255,1) 0%,rgba(0,122,255,1) 100%);
+                                color:#fff;
+                                cursor: pointer;
+                                margin-left:20px;
+                            }
+                        }
+                        .item-brife::before {
+                            position: absolute;
+                            top: 50%;
+                            left: -10px;
+                            content: "";
+                            display: block;
+                            border-top: 10px solid transparent;
+                            border-bottom: 10px solid transparent;
+                            border-right: 15px solid #fff;
+                            margin-top: -9px;
+
+            
+                        }
+                    }
+                }
+
+                .title {
+                    font-size: 32px;
+                    text-align: center;
+                    padding-top: 60px;
+                    color: #fff;
+                }
+
+                .brife {
+                    font-size: 16px;
+                    padding-top: 16px;
+                    text-align: center;
+                    color: #fff;
+                }
+
+                .icon-brife {
+                    margin: auto;
+                    margin-top: 40px;
+
+
+                    .brife-box {
+                        width: 42.5%;
+                        padding: 10px;
+                        float: left;
+
+                        .icon {
+                            width: 60px;
+                            height: 60px;
+                        }
+
+                        .title {
+                            font-size: 24px;
+                            text-align: left;
+                            padding-top: 20px;
+                            color: #fff;
+                            font-weight:bold;
+                        }
+
+                        .brife {
+                            width: 100%;
+                            font-size: 12px;
+                            text-align: left;
+                            line-height: 20px;
+                            word-wrap: break-word;
+                            color: #fff;
+                            margin-top:0px;
+
+                        }
+                    }
+                }
+
+                .block-box {
+                    text-align: center;
+                    width: 100%;
+                    margin-top: 40px;
+
+                    .cont-box {
+                        float: left;
+                        width: 340px;
+                        height: 202px;
+                        background: rgba(255, 255, 255, 0.06);
+                        box-shadow: 0px 10px 16px 0px rgba(0, 0, 0, 0.16);
+                        border-radius: 4px;
+                        margin: 10px;
+
+                        .icon {
+                            width: 60px;
+                            height: 58px;
+                            margin: auto;
+                            padding-top: 30px;
+
+                        }
+
+                        .num {
+                            font-size: 24px;
+                            margin-top: 21px;
+
+                        }
+
+                        .brife {
+                            font-size: 12px;
+                            text-align: left;
+                            padding: 20px;
+                           
+                            color: rgba(233, 233, 233, 1);
+                            line-height: 20px;
+                        }
+                    }
+                }
+
+            }
 
             .logo-box {
                 padding-top: 60px;
@@ -94,28 +266,28 @@
                 .title {
                     font-size: 32px;
                     text-align: center;
-                    font-weight:bold;
-                    color:rgba(56,58,64,1)
-                    
-
+                    font-weight: bold;
+                    color: rgba(56, 58, 64, 1)
                 }
 
                 .brife {
-                    width:700px;
+                    width: 700px;
                     font-size: 12px;
                     font-family: PingFang-SC-Regular;
                     font-weight: 400;
                     color: rgba(115, 120, 134, 1);
                     line-height: 20px;
-            
-                    margin:auto;
-                    margin-top:22px;
+
+                    margin: auto;
+                    margin-top: 22px;
                 }
             }
-            .s-bottom-img{
-               margin-top:48px;
+
+            .s-bottom-img {
+                margin-top: 48px;
             }
         }
+
         .f-left {
             width: 50%;
             height: 500px;
@@ -133,6 +305,7 @@
             // background:yellow;
             position: relative;
         }
+
         .contain {
             width: 488px;
             height: 134px;
@@ -165,6 +338,9 @@
                 height: 400px;
             }
         }
+        .table-box-con{
+            box-shadow: 0px 0px 0px 0px rgba(54, 56, 68, 0.05);
+        }
 
         .text-right::after {
             position: absolute;
@@ -180,19 +356,33 @@
 
 
         }
+
         .text-left::before {
-                position: absolute;
-                top: 50%;
-                right:-10px;
-                content: "";
-                display: block;
-                border-top: 10px solid transparent;
-                border-bottom: 10px solid transparent;
-                border-left: 15px solid #fff;
-                margin-top: -7px;
+            position: absolute;
+            top: 50%;
+            right: -10px;
+            content: "";
+            display: block;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-left: 15px solid #fff;
+            margin-top: -7px;
 
-            }
+        }
+    
+        .table-box-con::before {
+            position: absolute;
+            top: 61%;
+            right: -10px;
+            content: "";
+            display: block;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-left: 15px solid #fff;
+            margin-top: -7px;
 
+        }
+      
 
     }
 

@@ -1,0 +1,240 @@
+.wrap-box{
+    min-width: 1100px;
+}
+
+/* 头部样式 */
+.top-box{
+    position: relative;
+}
+.top-img{
+   
+    width:100%;
+    height: 1080px;
+    display: block;
+}
+
+.top-wrap{
+    /* position: absolute;
+    top: 289px;
+    left: 480px;
+    z-index: 10; */
+}
+
+.t-tit{
+    width:184px;
+    height:46px;
+    font-size:46px;
+    font-family:PingFang-SC-Semibold;
+    font-weight:600;
+    color:rgba(255,255,255,1);
+    line-height:46px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -92px;
+    margin-top: -250px;
+    
+}
+
+.t2-tit{
+    width:476px;
+    height:28px;
+    font-size:28px;
+    font-family:PingFang-SC-Regular;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:28px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -234px;
+    margin-top: -180px;
+}
+
+.t-des{
+    width:800px;
+    height:80px;
+    font-size:12px;
+    font-family:PingFang-SC-Regular;
+    font-weight:400;
+    color:rgba(233,233,233,1);
+    line-height:20px;
+    margin-bottom: 40px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -395px;
+    margin-top: -130px;
+}
+
+.img-box{
+    width:1060px;
+    height: 280px; 
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-left: -427px;
+    margin-top: 30px;
+    
+}
+
+.add-box{
+    float: left;
+    margin-right: 80px;
+}
+
+.a-img{
+    width:180px;
+    height:160px;
+
+}
+
+.a-tit{
+    height:20px;
+    font-size:20px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:20px;
+    margin-bottom: 12px;
+    
+}
+
+.a-des{
+    width:300px;
+    height:80px;
+    font-size:12px;
+    font-family:PingFang-SC-Regular;
+    font-weight:400;
+    color:rgba(233,233,233,1);
+    line-height:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 下面部分 */
+.section{
+    width:100%;
+    height:100%;
+}
+
+.map-box{
+    width:100%;
+    height:640px;
+    background: pink;
+}
+
+.sw-img{
+    width: 100%;
+    height:640px;
+    display: block;
+    
+}
+
+/* 地图部分  */
+
+
+/* 商务合作部分  */
+.sw-box{
+    width: 100%;
+    height:640px;
+    position: relative;
+}
+
+.sw-tit{
+    width:128px;
+    height:32px;
+    font-size:32px;
+    font-family:PingFang-SC-Semibold;
+    font-weight:600;
+    color:rgba(255,255,255,1);
+    line-height:32px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -64px;
+    margin-top: -266px;
+}
+
+.sw-eng{
+    width:175px;
+    height:14px;
+    font-size:14px;
+    font-family:PingFang-SC-Regular;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -74px;
+    margin-top: -220px;
+   
+}
+
+.ma-box{
+    width: 1640px;
+    height:250 ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -556px;
+    margin-top: -125px;
+}
+
+.e-box{
+   float: left;
+   margin-right:322px; 
+}
+
+.e-img{
+    width:160px;
+    height:160px;
+    background: pink;
+}
+
+.pink{
+    width:148px;
+    height:148px;
+    background:rgba(97,97,97,1);
+    border-radius:3px;
+}
+
+.e-tit{
+    width:100px;
+    height:20px;
+    font-size:20px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:20px;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+.info-box{
+    width:160px;
+    height:40px;
+    font-size:12px;
+    font-family:PingFang-SC-Regular;
+    font-weight:400;
+    color:rgba(233,233,233,1);
+    line-height:20px;
+}
+/* 底部内容  */
+.bottom{
+    width:100%;
+    height:220px;
+    background:rgba(51,51,51,1);
+}

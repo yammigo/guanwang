@@ -1,0 +1,244 @@
+.joinUs-box {
+    min-width: 1100px;
+
+    .photo-box {
+        height: 640px;
+        padding-top: 140px;
+        width: 100%;
+        background: rgba(241, 242, 245, 1);
+
+        .photos {
+            width: 930px;
+            height: 408px;
+            background: rgba(255, 255, 255, 1);
+            box-shadow: 0px 24px 40px 0px rgba(0, 0, 0, 0.08);
+            border-radius: 8px;
+            margin: auto;
+            margin-top: 24px;
+            padding: 16px;
+
+            .left-photo {
+                float: left;
+                width: 560px;
+                height: 406px;
+                overflow:hidden;
+
+            }
+
+            .right-photos {
+                float: left;
+                padding-left: 16px;
+
+                .top-photo {
+                    overflow:hidden;
+                    width: 352px;
+                    height: 195px;
+                }
+
+                .bottom-photo {
+                    padding-top: 16px;
+
+                    div {
+                        overflow:hidden;
+                        width: 168px;
+                        height: 195px;
+                        float: left;
+                    }
+                }
+            }
+            img{
+                transition: all ease 0.5s;
+            }
+            img:hover{
+                transform: scale(1.8);
+                transition: all ease 0.5s;
+            }
+        }
+        
+
+    }
+
+    .title-box {
+        .title {
+            font-size: 32px;
+            text-align: center;
+            font-weight: 600;
+            color: rgba(56, 58, 64, 1);
+            line-height: 32px;
+            margin: auto;
+        }
+
+        .brife {
+            text-align: center;
+            font-size: 14px;
+
+            font-weight: 400;
+            color: rgba(115, 120, 134, 1);
+            line-height: 14px;
+            margin-top: 12px;
+        }
+    }
+
+    .icon-box {
+        width: 960px;
+        margin: auto;
+
+        .bract-box {
+            padding-top: 20px;
+            text-align: center;
+            width: 225px;
+            height: 124px;
+            margin-top: 20px;
+
+            float: left;
+            margin-right: 20px;
+
+            .brife {
+                font-size: 20px;
+                font-weight: 500;
+                color: rgba(56, 58, 64, 1);
+                line-height: 20px;
+                margin-top: 12px;
+            }
+
+
+        }
+    }
+
+
+    // 招聘相关
+    .job-box {
+        padding-bottom: 80px;
+        width: 960px;
+        margin: auto;
+    
+
+        .select-job {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            li {
+                display: block;
+                float: left;
+                margin-right: 80px;
+                font-size: 20px;
+                font-family: PingFang-SC-Regular;
+                font-weight: 400;
+                color: #777777;
+                line-height: 20px;
+                position: relative;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                cursor: pointer;
+            }
+
+            li.active {
+                color: black;
+
+
+            }
+
+            li:hover {
+                color: black;
+            }
+
+            li.active::before {
+                content: '';
+                width:0%;
+                display: block;
+                width: 100%;
+                height: 2px;
+                position: absolute;
+                background: black;
+                bottom: 0px;
+                animation: selected 0.5s ease;
+                transform-origin: center;
+        
+            } 
+            @keyframes selected {
+                0%{
+                    width:0%;
+                    transform-origin: center;
+                }
+                100%{
+                    width: 100%;
+                    transform-origin: center;
+                }
+            }
+
+            li:last-child {
+                margin-right: 0px;
+            }
+        }
+
+        .job-desc {
+            width: 880px;
+            height: auto;
+            background: rgba(255, 255, 255, 1);
+            box-shadow: 0px 24px 40px 0px rgba(0, 0, 0, 0.08);
+            border-radius: 8px;
+            padding: 40px;
+            font-size: 12px;
+            font-family: PingFang-SC-Regular;
+            font-weight: 400;
+            color: rgba(56, 58, 64, 1);
+            margin-top: 30px;
+
+            .title-tag {
+
+                .title {
+                    font-size: 24px;
+                    font-weight: 600;
+                    color: rgba(56, 58, 64, 1);
+                    line-height: 24px;
+                    float: left;
+                    width: 90%;
+                }
+
+                .tag {
+                    width: 10%;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: rgba(0, 122, 255, 1);
+                    line-height: 16px;
+                    float: right;
+                    text-align: right
+                }
+
+            }
+
+            .ma-top {
+                margin-top: 15px;
+
+                p {
+                    margin: 12px;
+                }
+            }
+
+            .resume-btn {
+                width: 100px;
+                height: 28px;
+                background: linear-gradient(135deg, rgba(65, 163, 255, 1) 0%, rgba(0, 122, 255, 1) 100%);
+                border-radius: 30px;
+                font-size: 14px;
+                font-family: PingFang-SC-Semibold;
+                font-weight: 600;
+                color: rgba(255, 255, 255, 1);
+                line-height: 14px;
+                text-align: center;
+                line-height:28px;
+                margin: auto;
+                margin-top:40px;
+                cursor: pointer;
+            }
+            .resume-btn:active{
+                background: rgb(38, 123, 202);
+            }
+
+        }
+    }
+
+
+
+
+
+}
